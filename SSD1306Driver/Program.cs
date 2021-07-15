@@ -1,12 +1,13 @@
 ﻿using System;
-
+using SSD1306Core;
 namespace SSD1306Driver
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+		SSD1306.Dummy();
+		SSD1306.ClearDisplay();
         }
     }
 }
